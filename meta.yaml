@@ -1,5 +1,5 @@
 name: Auto Routes
-version: '1.0.0'
+version: '1.0.1'
 description: Listens for page edits and updates collection routes on slug change.
 developer: Studio 1902
 developer_url: https://studio1902.nl
