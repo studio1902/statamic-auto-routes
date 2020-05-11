@@ -28,7 +28,6 @@ class AutoRoutesListener extends Listener
         $mount = $this->entry->get('mount');
         if($mount)
         {
-            $url = $this->entry->url();
             $collection = Collection::whereHandle($mount);
             // Only update the routes if there are already routes defined for this collection.
             if($collection->route())
